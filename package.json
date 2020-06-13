@@ -1,11 +1,10 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "vladtutunea.com",
+  "description": "Vlad Tutunea Website",
   "version": "0.1.7",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Vlad Tutunea <vlad.tutunea@protonmail.com>",
   "license": "MIT",
-  "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

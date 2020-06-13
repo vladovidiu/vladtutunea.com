@@ -8,6 +8,13 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `Vlad Tutunea Website`,
+    siteTitle: `Vlad Tutunea`,
+    siteHeadline: `Vlad Tutunea Personal Website`,
+    siteUrl: `https://vladtutunea.com`,
+    siteDescription: `Vlad Tutunea Pragmatic Programmer`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@vlad_ovidiu`,
   },
   plugins: [
     {
@@ -24,9 +31,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Vlad Tutunea Website`,
+        name: `Vlad Tutunea`,
+        short_name: `vladtutunea`,
+        description: `Vlad Tutunea Personal Website`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,

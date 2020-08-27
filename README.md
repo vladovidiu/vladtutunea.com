@@ -12,14 +12,3 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" />
   </a>
 </p>
-
-## 🚀 Getting Started
-
-```sh
-cd project-name
-gatsby develop
-```
-
-3. **Open the code and start customizing!**
-
-Your site is now running at `http://localhost:8000`!

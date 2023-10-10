@@ -42,17 +42,6 @@ const Navbar = () => {
                   >
                     Blog
                   </NavLink>
-                  <NavLink
-                    prefetch="intent"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "border-teal-500 dark:bg-gray-900 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                    }
-                    to="/cv"
-                  >
-                    CV
-                  </NavLink>
                   <button
                     onClick={() =>
                       setTheme((prev) =>
@@ -196,17 +185,6 @@ const Navbar = () => {
                 to="/blog"
               >
                 Blog
-              </NavLink>
-              <NavLink
-                prefetch="intent"
-                className={({ isActive }) =>
-                  isActive
-                    ? "bg-teal-50 border-teal-500 text-teal-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
-                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-white dark:hover:bg-gray-700"
-                }
-                to="/projects"
-              >
-                Projects
               </NavLink>
             </div>
           </Disclosure.Panel>
